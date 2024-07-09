@@ -61,7 +61,7 @@ body{
 
 .web-dev{
     width: 1140px;
-    height: 1395px;
+    height: 1200px;
     margin: 0 auto;
     background-color: rgba(13, 19, 33, 0.02);
     margin-top: 75px;
@@ -108,6 +108,7 @@ body{
         padding: 12px 20px 12px 20px;
         font-weight: 600;
         font-size: 20px;
+        background-color: white;
     }
    p{
     margin-top: 16px;
@@ -134,4 +135,41 @@ body{
 .development3{
     padding-right:98px ;
     background-color: white;
+}
+
+
+
+
+/* my inspiration section starts here */
+
+.inspiration{
+
+
+
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto ;
+    border: 2px solid red;
+    margin-top: 108px;
+    color: rgb(13, 19, 33);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3{
+        font-weight: 800;
+        font-size: 32px;
+    }
+    p{
+    margin-top: 24px;
+     font-weight: 400;
+     font-size: 16px;
+    }
+   
+}
+
+.video{
+    margin-top: 48px;
+    width: 1140px;
+    height: 614px;
+    padding: 32px;
 }
