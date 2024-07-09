@@ -17,7 +17,6 @@ body{
 .banner{
     width: 1440px;
     height: 652px;
-    border: 2px solid red;
     background-image: url(/assets/Hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -54,4 +53,85 @@ body{
     margin-top: 32px;
     border-style: none;
     border-radius: 8px;
+}
+
+
+
+/* why web development starts here */
+
+.web-dev{
+    width: 1140px;
+    height: 1395px;
+    margin: 0 auto;
+    background-color: rgba(13, 19, 33, 0.02);
+    margin-top: 75px;
+    padding: 80px 97px 80px 97px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   h2{
+     font-weight: 800;
+     font-size: 32px;
+     text-align: center;
+   }
+   
+}
+.text-contant{
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+   }
+
+
+
+
+
+.web-contant{
+    width: 946px;
+    height: 336px;
+    margin-top: 32px;
+    margin:0 auto;
+    padding: 48px 48px 48px 48px;
+    display: flex;
+    
+    img{
+        width:274px;
+        height: 240px;
+        background-color: white;
+    }
+
+    button{
+        margin-top: 32px;
+        color: rgb(13, 19, 33);
+        padding: 12px 20px 12px 20px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+   p{
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+   } 
+   h3{
+    font-weight: 700;
+    font-size: 24px;
+   }
+}
+
+.development1{
+    padding-right:98px ;
+    background-color: white;
+}
+
+
+.development2{
+    padding-left: 98px;
+    background-color: white;
+}
+
+.development3{
+    padding-right:98px ;
+    background-color: white;
 }
