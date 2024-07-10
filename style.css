@@ -17,7 +17,7 @@ body{
 .banner{
     width: 1440px;
     height: 652px;
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url(./assets/Hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -265,7 +265,7 @@ background-color: rgba(255, 76, 30, 0.05);
     height:314px ;
     margin: 0 auto;
     margin-top: 77px;
-    background-image: url(/assets/handshake.jpg);
+    background-image: url(./assets/handshake.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
